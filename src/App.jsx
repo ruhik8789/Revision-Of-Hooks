@@ -1,11 +1,17 @@
 import React from 'react'
-import UseStatee from './Hooks/UseState'
+import UseState from './Hooks/UseState'
+import UseEffect from './Hooks/UseEffect'
+import UseRef from './Hooks/useRef'
+import UseMemo from './Hooks/UseMemo'
 
 
 const App = () => {
   return (
     <div>
-      <UseStatee />
+      {/* <UseState /> */}
+      {/* <UseEffect/> */}
+      {/* <UseRef /> */}
+      <UseMemo />
     </div>
   )
 }

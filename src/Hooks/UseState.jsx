@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const UseStatee = () => {
+const UseState = () => {
   const [count, setCount] = useState(0);
   const [name, setName] = useState();
   return (
@@ -13,4 +13,4 @@ const UseStatee = () => {
   </>
   )};
 
-export default UseStatee;
+export default UseState;
